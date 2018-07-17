@@ -28,5 +28,5 @@ get '/multiply/:num1/:num2' do
   @number2 = params[:num2].to_i 
   @number1 = @number2 * @number1
   "Your product is #{@product}"
-end 
+  end 
 end 
